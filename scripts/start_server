@@ -1,2 +1,2 @@
 #!/bin/bash
-nodejs ./start_node &
+nodejs /tmp/start_node &
