@@ -1,2 +1,4 @@
-#!/bin/bash
-killall nodejs -q
+isExistApp=`pgrep nodejs`
+if [[ -n  $isExistApp ]]; then
+    killall nodejs
+fi
